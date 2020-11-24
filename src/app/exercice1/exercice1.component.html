@@ -1,0 +1,15 @@
+<h3>Exercice 1</h3>
+
+<p [title]="tooltip">
+  Exemple liaison sur un attribut avec [] en mettant un tooltip sur cette
+  phrase.
+</p>
+
+<p (click)="clickEvent()">
+  Liaison sur un évènement "clic" : console.log en cliquant sur cette phrase.
+</p>
+
+<p>
+  Affichage de la propriété "amazingVariable" grâce à
+  <code ngNonBindable>{{}}</code> : <strong>{{ amazingVariable }}</strong>
+</p>
